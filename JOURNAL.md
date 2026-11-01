@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 4 | Tier 2 | 2.4h | 2 |
+| Week 4 | Tier 2 | 3.12h | 2 |
 
 ## Contents
 
@@ -21,7 +21,7 @@
 
 ### 2026-11-01: I first started with making the schematic wich was very easy as it's only 2 components didn't take much but because the kicad default symbols don't include the devkit version of the esp32 i had to  lo
 
-**0.4h**
+**1.12h**
 
 I first started with making the schematic wich was very easy as it's only 2 components didn't take much but because the kicad default symbols don't include the devkit version of the esp32 i had to  look online but i found one  wich i will also include in the github
 
