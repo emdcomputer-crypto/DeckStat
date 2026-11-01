@@ -6,11 +6,11 @@
 > [!NOTE]
 > This devlog is mirrored from [Half Life](https://halflife.hackclub.com) ([open the project](https://halflife.hackclub.com/projects/hnue6lwwurylcxbq66xx0jlv)). Editing it here will not change the platform's copy, and the next sync overwrites this file.
 
-> A little gadget that display various info like cpu usage, temps etc... on an oled display with 2 mx switches to switch between stuff. A bare perboard project with all the wires and components visible, it's design choice because it just looks cooler.
+> A little gadget that display  cpu, gpu, ram  and vram usage on an oled display powered by a normal esp32.
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 4 | Tier 2 | 9.74h | 4 |
+| Week 4 | Tier 2 | 10.64h | 4 |
 
 ## Contents
 
@@ -43,7 +43,7 @@ i had to choose beetween 2 interfaces one for temperature and the other for usag
 
 ### 2026-11-01: Of course putting together the code wasn't easy so i had to watch a LOT of tutorials, i ran into a lot of problems and had to scrap the code a couple of times and redo it, it was hard because the esp3
 
-**3.9h**
+**4.8h**
 
 Of course putting together the code wasn't easy so i had to watch a LOT of tutorials, i ran into a lot of problems and had to scrap the code a couple of times and redo it, it was hard because the esp32 had to communicate with the pc thru usb so for the python code i did use the help of AI because i don't know how to code in python but for the rest i did it myself (this entry only includes the time it took to write the esp32 firmware)
 
@@ -54,6 +54,8 @@ Of course putting together the code wasn't easy so i had to watch a LOT of tutor
 ![7](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/5da4c95364158eb789a885bbdc6156fffac1941514ca4c0d8b447cd3c9865715.png)
 
 ![8](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/8ed0b0792c5052a2f647ce373207b310da8f73e0b09681ab713c5916373017f7.png)
+
+![12](https://halflife.hackclub-assets.com/sessions/LVRmHEqlXH32t0BkNInDPBCrieQkaLRx/f2c2b396e85951fbc5721fcd2eef62adb8f18e76dbbe346366ce4f70365fcc62.png)
 
 ### 2026-11-01: to make the python script i had to use the help of ai, not because i'm lazy but because i can't code in that launguage and i couln't watch tutorials because i'm giving priority to c++ that i'm still l
 
