@@ -8,7 +8,7 @@ This is my Half Life Week 4 project. I made a small PC stats display using an ES
 
 ## How it works
 
-The Python script reads the usage from the computer and sends it to the ESP32 through the USB cable. It sends one line of numbers at a time, like `11,45,32,34`. The numbers mean CPU, RAM, GPU and VRAM, in that order. Both sides use 115200 baud, and the ESP32 updates the screen when it gets a new line.
+The Python script reads the usage from the computer and sends it to the ESP32 through the USB cable. It sends one line of numbers at a time, like `11,45,32,34`. The numbers mean CPU, RAM, GPU and VRAM, in that order. Both sides use 115200 baud and the ESP32 updates the screen when it gets a new line.
 
 The screen layout came from Lopaka. I made two screens while working on it but I kept the usage screen because it was simpler and had the information I wanted. The animation bitmap used by the firmware is included in the Firmware folder too.
 
@@ -35,11 +35,7 @@ I did not make a custom PCB for this project. Because it's unecessary would look
    ```
 
 4. Change `PORT` near the top of `Firmware/Script.py` to the ESP32 COM port you are using.
-5. Close Arduino Serial Monitor then run this from the project folder:
-
-   ```powershell
-   py Firmware\Script.py
-   ```
+5. Close Arduino Serial Monitor then run the script.
 
 The Python script uses NVIDIA NVML for GPU and VRAM usage readings. If you don't have an NVIDIA GPU those two readings stay at zero.
 
