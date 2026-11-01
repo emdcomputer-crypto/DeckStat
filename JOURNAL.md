@@ -10,7 +10,7 @@
 
 | Week | Tier | Hours logged | Entries |
 | --- | --- | --- | --- |
-| Week 4 | Tier 2 | 9.32h | 4 |
+| Week 4 | Tier 2 | 9.62h | 4 |
 
 ## Contents
 
@@ -57,7 +57,7 @@ Of course putting together the code wasn't easy so i had to watch a LOT of tutor
 
 ### 2026-11-01: to make the python script i had to use the help of ai, not because i'm lazy but because i can't code in that launguage and i couln't watch tutorials because i'm giving priority to c++ that i'm still l
 
-**2.3h**
+**2.6h**
 
 to make the python script i had to use the help of ai, not because i'm lazy but because i can't code in that launguage and i couln't watch tutorials because i'm giving priority to c++ that i'm still learning both at home and at school but still also tried to make it on my own too so it's not 100% ai here's how it works:
 the pthon script reads the PC’s CPU, RAM, GPU, and VRAM usage then sends them to the ESP32 over the USB cable as a serial text line for example "11, 45, 32, 34" and the esp32 simply reads that and displays it, of course both sides communicate using 115200 baud. obviously i didn't work the first time since at first it wasn't sending the correct data but i managed to fix it .
